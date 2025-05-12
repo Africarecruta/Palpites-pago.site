@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PalpitePay Simulador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hero">
+    <h1>Bem-vindo ao PalpitePay!</h1>
+    <p>Quer testar sua sorte? Envie seu palpite e veja se você acertou!</p>
+    <form id="palpiteForm">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="text" id="palpite" placeholder="Seu palpite" required />
+      <button type="submit">Enviar Palpite</button>
+    </form>
+  </div>
+
+  <div id="resultado" class="resultado"></div>
+  
+  <h2>Ranking de Acertos</h2>
+  <ul id="ranking"></ul>
+
+  <footer>
+    <p>PalpitePay - O jogo de sorte para todos!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
